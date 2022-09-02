@@ -6,7 +6,7 @@ import Footer from './components/template/Footer';
 import Rotas from './Rotas';
 import {BrowserRouter} from 'react-router-dom';
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
     <div className="App">
@@ -19,4 +19,3 @@ function App() {
   );
 }
 
-export default App;
